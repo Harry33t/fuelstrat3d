@@ -30,7 +30,11 @@ p { line-height: 1.62; }
 /* header */
 .masthead { padding: 52px 0 30px; }
 .eyebrow { font-size: 12.5px; color: var(--muted); letter-spacing: 0.02em; }
-.byline { font-size: 13.5px; color: var(--muted); margin-top: 10px; }
+.authors { margin-top: 12px; font-size: 15px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; }
+.author-name { font-weight: 700; color: var(--text); }
+.author-aff { color: var(--muted); }
+.authors a { color: var(--accent); }
+.byline { font-size: 13px; color: var(--muted); margin-top: 6px; }
 .abstract { margin-top: 20px; padding: 16px 20px; background: var(--bg-2); border: 1px solid var(--line);
   border-radius: 6px; font-size: 14.5px; line-height: 1.6; }
 .abstract b { font-weight: 700; }

@@ -17,6 +17,11 @@ export default function App() {
         <div className="wrap">
           <div className="eyebrow">Method demonstration</div>
           <h1>Label-efficient segmentation of vertical fuel strata from airborne LiDAR point clouds</h1>
+          <div className="authors">
+            <span className="author-name">Guanxiong Huang</span>
+            <span className="author-aff">Northwest A&amp;F University</span>
+            <a href="mailto:harry.huang@nwafu.edu.cn">harry.huang@nwafu.edu.cn</a>
+          </div>
           <div className="byline">PhD research demonstration · FOR-instance benchmark (Puliti et al., 2023)</div>
           <div className="abstract">
             Airborne LiDAR studies of forest fuel load have largely been limited to the canopy; the surface and
